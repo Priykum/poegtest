@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Segoe+UI+Variable&display=swap');
+
+:root {
+  --windows-blue: #0078D7;
+  --windows-purple: #6C63FF;
+  --windows-pink: #FF6CB7;
+  --windows-green: #00B294;
+}
+
+body {
+  font-family: 'Segoe UI Variable', sans-serif;
+  color: var(--windows-blue);
+  background-color: #F0F0F0;
+}
+
+/* Header */
+.header-2JyH6g {
+  background-color: var(--windows-blue);
+  border-bottom: 1px solid var(--windows-purple);
+}
+
+/* Footer */
+.footer-2gL1pp {
+  background-color: var(--windows-blue);
+  border-top: 1px solid var(--windows-purple);
+}
+
+/* Channel List */
+.container-3baos1 {
+  justify-content: center;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* Server List */
+.sidebar-2K8pFh {
+  justify-content: center;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* Button Animations */
+button {
+  transition: all 0.2s ease-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* Menu Animations */
+div[class*="menu"] {
+  transition: all 0.2s ease-out;
+}
+
+div[class*="menu"]:hover {
+  transform: scale(1.05);
+}
+
+/* Custom Icons */
+.guildIcon-1G0l1B {
+  background-image: url('https://example.com/windows11-server-icon.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Custom Fonts */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Segoe UI Variable', sans-serif;
+  font-weight: bold;
+  color: var(--windows-blue);
+}
+
+p, span, label, input, button {
+  font-family: 'Segoe UI Variable', sans-serif;
+  font-weight: normal;
+  color: var(--windows-blue);
+}
